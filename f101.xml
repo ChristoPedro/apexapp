@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<databas
+<databaseChangeLog 
 	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
-	<changeSet id="c34e787388eeb9e781c7106ee588ef205a216264" author="(ADMIN)-Generated" failOnError="false"    >
-		<n0:runOracleScript objectName="SCRIPT" objectType="APEX" ownerName="ADMIN" sourceType="STRING"  >
+	<changeSet id="c5ed5144c26fc1d550caf4faa34a84960283e750" author="(DEMO)-Generated" failOnError="false"    >
+		<n0:runOracleScript objectName="SCRIPT" objectType="APEX" ownerName="DEMO" sourceType="STRING"  >
 			<n0:source><![CDATA[prompt --application/set_environment
 set define off verify off feedback off
 whenever sqlerror exit sql.sqlcode rollback
@@ -42,7 +42,7 @@ prompt APPLICATION 101 - Cadastro
 -- Application Export:
 --   Application:     101
 --   Name:            Cadastro
---   Exported By:     ADMIN
+--   Exported By:     DEMO
 --   Flashback:       0
 --   Export Type:     Application Export
 --     Pages:                      7

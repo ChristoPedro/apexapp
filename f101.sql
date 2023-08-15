@@ -33,7 +33,7 @@ prompt APPLICATION 101 - Cadastro
 -- Application Export:
 --   Application:     101
 --   Name:            Cadastro
---   Date and Time:   16:41 Tuesday August 15, 2023
+--   Date and Time:   16:50 Tuesday August 15, 2023
 --   Exported By:     DEMO
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -117,7 +117,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'Cadastro'
 ,p_last_updated_by=>'DEMO'
-,p_last_upd_yyyymmddhh24miss=>'20230808194907'
+,p_last_upd_yyyymmddhh24miss=>'20230815164900'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
 ,p_print_server_type=>'NATIVE'
@@ -17827,13 +17827,12 @@ wwv_flow_imp_page.create_page(
 ,p_protection_level=>'C'
 ,p_page_component_map=>'13'
 ,p_last_updated_by=>'DEMO'
-,p_last_upd_yyyymmddhh24miss=>'20230808194907'
+,p_last_upd_yyyymmddhh24miss=>'20230815164900'
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(7508967363742453)
-,p_plug_name=>'Cadastro'
+,p_plug_name=>'Cadastro - Teste'
 ,p_region_template_options=>'#DEFAULT#'
-,p_escape_on_http_output=>'Y'
 ,p_plug_template=>wwv_flow_imp.id(7299880731742018)
 ,p_plug_display_sequence=>10
 ,p_plug_display_point=>'REGION_POSITION_01'
